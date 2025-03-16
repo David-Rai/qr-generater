@@ -31,6 +31,11 @@ const App = () => {
           onChange={(e) => setInput(e.target.value)}
         />
       </div>
+      <h1>{
+        url &&
+<a href={url} download={url}>Download</a>
+      }
+      </h1>
     </div>
   );
 };
