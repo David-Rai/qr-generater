@@ -26,6 +26,12 @@ html, body {
   flex-direction: column;
   padding: 10px;
  }
+@media (max-width:600px){
+.center{
+width:90%;
+}
+}
+
  .center img{
   height: 80%;
   width: 100%;
